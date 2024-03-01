@@ -10,7 +10,7 @@ import { useState } from 'react';
 const App = () => {
   const [progress,setProgress] =useState(0)
  
-  const setProgress1 = () =>{
+  const setProgress1 = (progress) =>{
     setProgress(progress)
   }
   
